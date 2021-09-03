@@ -83,7 +83,7 @@ canvas.on('mouse:up', function (e) {
 canvas.on('mouse:up', function (e) {
     coords = canvas.getPointer(e, true)
     if (activeMod == mods.note && canvas.getActiveObject() == undefined) {
-        var note = new fabric.Textbox('Note example', {
+        var note = new fabric.Textbox('TODO ITEM', {
             fontSize: 16,
             width: 150,
             height: 200,

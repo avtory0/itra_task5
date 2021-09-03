@@ -52,7 +52,9 @@ a.navbar-brand {
     word-break: break-all;
 }
 
-
+.nav-item {
+    border-radius: 5px !important;
+}
 
 
 a {

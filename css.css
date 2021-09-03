@@ -5,6 +5,10 @@ html {
     margin: 0;
 }
 
+body {
+    background-color: #e6ddd6;
+}
+
 .row {
     margin: 0;
     padding: 20px;
@@ -29,8 +33,11 @@ button {
     width: 50   px !important;
 }
 
+
+
 #board, #canvas {
     border: 1px black solid;
+    border-radius: 10px;
 }
 
 #board {
@@ -49,20 +56,20 @@ a.navbar-brand {
 
 
 a {
-    color: #0366d6;
+    color: #8e00ff;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
+    background-color: #8e00ff;
+    border-color: #8e00ff;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
+    background-color: #8e00ff;
+    border-color: #8e00ff;
 }
 
 
@@ -117,4 +124,9 @@ body {
     white-space: nowrap;
     line-height: 60px;
     /* Vertically center the text there */
+}
+
+.active {
+    background-color: #8e00ff !important;
+    border: #8e00ff !important;
 }
